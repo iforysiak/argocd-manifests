@@ -10,7 +10,7 @@ resources:
 images:
   - name: shop-backend
     newName: ghcr.io/iforysiak/shop-backend
-    newTag: dev
+    newTag: dev-1
 
  # Lab 12: Update fake wiremock image
 #images:
