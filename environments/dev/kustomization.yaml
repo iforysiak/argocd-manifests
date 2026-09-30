@@ -7,16 +7,16 @@ resources:
   - ../../base
 
 # Proper image located in GitHub Container Registry
-images:
-  - name: shop-backend
-    newName: ghcr.io/iforysiak/shop-backend
-    newTag: dev
+#images:
+#  - name: shop-backend
+#    newName: ghcr.io/iforysiak/shop-backend
+#    newTag: dev
 
-# # Lab 12: Update fake wiremock image
-# images:
-#   - name: wiremock/wiremock
-#     newName: wiremock/wiremock
-#     newTag: dev-does-not-exist
+ # Lab 12: Update fake wiremock image
+images:
+  - name: wiremock/wiremock
+    newName: wiremock/wiremock
+    newTag: dev-does-not-exist
 
 # Increase number of replicas in DEV environment
 patches:
