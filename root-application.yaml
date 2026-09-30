@@ -14,7 +14,7 @@ spec:
     namespace: shop-dev
   syncPolicy:
     automated:
-      prune: true
+      prune: false
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
