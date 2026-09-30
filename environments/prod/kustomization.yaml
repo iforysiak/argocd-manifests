@@ -8,7 +8,7 @@ resources:
 
 images:
   - name: shop-backend
-    newName: ghcr.io/pchmielecki87/shop-backend
+    newName: ghcr.io/iforysiak/shop-backend
     newTag: dev # temporary solution as we do have now only one image
 
 patches:
