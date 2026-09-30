@@ -51,7 +51,7 @@ kind: Service
 metadata:
   name: shop-backend-service
 spec:
-  type: LoadBalancer
+  type: ClusterIp
   ports:
   - port: 8080
     targetPort: 8080
